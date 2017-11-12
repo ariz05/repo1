@@ -128,14 +128,14 @@
                   <a name="EditPersonalDetails">
                   </a> <!-- EditPersonalDetails -->
                   <span class="method-name">EditPersonalDetails</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;loginId&apos;]
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;signOutHeaderLink&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;DESKTOP-E3M957M&apos;, ip: &apos;192.168.1.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.DgzIkZYWFsGD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
-*** Element info: {Using=xpath, value=.//*[@id=&apos;loginId&apos;]}
+Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.kq61AExe2j2N, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6168.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 010e74c8-4acc-4a94-80b1-d34a538ee02e
+*** Element info: {Using=xpath, value=.//*[@id=&apos;signOutHeaderLink&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -146,9 +146,8 @@ Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-	at PageObjects.LogInPage.txtbx_Username(LogInPage.java:15)
-	at appModules.SignInAction.Execute(SignInAction.java:23)
-	at automationframework.Demotest.EditPersonalDetails(Demotest.java:60)
+	at PageObjects.HomePage.lnk_Logout(HomePage.java:31)
+	at automationframework.Demotest.EditPersonalDetails(Demotest.java:62)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -211,12 +210,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'EditPersonalDetails')
 data.setCell(0, 2, 'automationframework.Demotest')
-data.setCell(0, 3, 5472);
+data.setCell(0, 3, 13789);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -251,11 +250,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">EditPersonalDetails</span>
-                <span class="method-start">39915 ms</span>
+                <span class="method-start">66715 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">45388 ms</span>
+                <span class="method-start">80516 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

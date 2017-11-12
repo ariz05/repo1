@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 12 14:03:00 IST 2017</td>
+<td>Started on:</td><td>Sun Nov 12 18:24:58 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>46 seconds (46107 ms)</td>
+<tr><td>Total time:</td><td>82 seconds (82517 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='automationframework.Demotest.EditPersonalDetails()'><b>EditPersonalDetails</b><br>Test class: automationframework.Demotest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;loginId&apos;]
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;signOutHeaderLink&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;DESKTOP-E3M957M&apos;, ip: &apos;192.168.1.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.DgzIkZYWFsGD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
-*** Element info: {Using=xpath, value=.//*[@id=&apos;loginId&apos;]}
+Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.kq61AExe2j2N, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6168.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 010e74c8-4acc-4a94-80b1-d34a538ee02e
+*** Element info: {Using=xpath, value=.//*[@id=&apos;signOutHeaderLink&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -94,18 +94,17 @@ Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-	at PageObjects.LogInPage.txtbx_Username(LogInPage.java:15)
-	at appModules.SignInAction.Execute(SignInAction.java:23)
-	at automationframework.Demotest.EditPersonalDetails(Demotest.java:60)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace806813022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace806813022'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;loginId&apos;]
+	at PageObjects.HomePage.lnk_Logout(HomePage.java:31)
+	at automationframework.Demotest.EditPersonalDetails(Demotest.java:62)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace25764044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25764044'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;signOutHeaderLink&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;DESKTOP-E3M957M&apos;, ip: &apos;192.168.1.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.DgzIkZYWFsGD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
-*** Element info: {Using=xpath, value=.//*[@id=&apos;loginId&apos;]}
+Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.kq61AExe2j2N, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6168.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 010e74c8-4acc-4a94-80b1-d34a538ee02e
+*** Element info: {Using=xpath, value=.//*[@id=&apos;signOutHeaderLink&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -120,9 +119,8 @@ Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-	at PageObjects.LogInPage.txtbx_Username(LogInPage.java:15)
-	at appModules.SignInAction.Execute(SignInAction.java:23)
-	at automationframework.Demotest.EditPersonalDetails(Demotest.java:60)
+	at PageObjects.HomePage.lnk_Logout(HomePage.java:31)
+	at automationframework.Demotest.EditPersonalDetails(Demotest.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -148,7 +146,7 @@ Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
 	at org.testng.TestNG.privateMain(TestNG.java:1442)
 	at org.testng.TestNG.main(TestNG.java:1411)
 </pre></div></td>
-<td>5</td>
+<td>13</td>
 <td>automationframework.Demotest@6debcae2</td></tr>
 </table><p>
 </body>

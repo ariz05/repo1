@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46107" started-at="2017-11-12T08:33:00Z" finished-at="2017-11-12T08:33:47Z">
+  <suite name="Suite" duration-ms="82517" started-at="2017-11-12T12:54:58Z" finished-at="2017-11-12T12:56:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46107" started-at="2017-11-12T08:33:00Z" finished-at="2017-11-12T08:33:47Z">
+    <test name="Test" duration-ms="82517" started-at="2017-11-12T12:54:58Z" finished-at="2017-11-12T12:56:20Z">
       <class name="automationframework.Demotest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationframework.Demotest@6debcae2]" name="beforeMethod" is-config="true" duration-ms="39915" started-at="2017-11-12T14:03:01Z" finished-at="2017-11-12T14:03:40Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationframework.Demotest@6debcae2]" name="beforeMethod" is-config="true" duration-ms="66715" started-at="2017-11-12T18:24:58Z" finished-at="2017-11-12T18:26:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="EditPersonalDetails()[pri:0, instance:automationframework.Demotest@6debcae2]" name="EditPersonalDetails" duration-ms="5472" started-at="2017-11-12T14:03:40Z" finished-at="2017-11-12T14:03:46Z">
+        <test-method status="FAIL" signature="EditPersonalDetails()[pri:0, instance:automationframework.Demotest@6debcae2]" name="EditPersonalDetails" duration-ms="13789" started-at="2017-11-12T18:26:05Z" finished-at="2017-11-12T18:26:18Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: .//*[@id='loginId']
+              <![CDATA[Unable to locate element: .//*[@id='signOutHeaderLink']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-E3M957M', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.DgzIkZYWFsGD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
-*** Element info: {Using=xpath, value=.//*[@id='loginId']}]]>
+Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.kq61AExe2j2N, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6168.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 010e74c8-4acc-4a94-80b1-d34a538ee02e
+*** Element info: {Using=xpath, value=.//*[@id='signOutHeaderLink']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='loginId']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='signOutHeaderLink']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-E3M957M', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.DgzIkZYWFsGD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=11928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
-*** Element info: {Using=xpath, value=.//*[@id='loginId']}
+Capabilities [{moz:profile=C:\Users\Ariz\AppData\Local\Temp\rust_mozprofile.kq61AExe2j2N, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=6168.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 010e74c8-4acc-4a94-80b1-d34a538ee02e
+*** Element info: {Using=xpath, value=.//*[@id='signOutHeaderLink']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -46,9 +46,8 @@ Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-	at PageObjects.LogInPage.txtbx_Username(LogInPage.java:15)
-	at appModules.SignInAction.Execute(SignInAction.java:23)
-	at automationframework.Demotest.EditPersonalDetails(Demotest.java:60)
+	at PageObjects.HomePage.lnk_Logout(HomePage.java:31)
+	at automationframework.Demotest.EditPersonalDetails(Demotest.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,7 +78,7 @@ Session ID: cce22538-7336-4e39-becf-74c89bca3c2c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditPersonalDetails -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationframework.Demotest@6debcae2]" name="afterMethod" is-config="true" duration-ms="697" started-at="2017-11-12T14:03:46Z" finished-at="2017-11-12T14:03:47Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationframework.Demotest@6debcae2]" name="afterMethod" is-config="true" duration-ms="1977" started-at="2017-11-12T18:26:18Z" finished-at="2017-11-12T18:26:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
