@@ -50,5 +50,6 @@
 	<classpathentry kind="lib" path="C:/Users/Ariz/Desktop/ProjectFiles/Drivers and jar files/DRiver_Selenium/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Ariz/Desktop/ProjectFiles/Drivers and jar files/DRiver_Selenium/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Ariz/Desktop/ProjectFiles/Drivers and jar files/Report/extentreports-2.40.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

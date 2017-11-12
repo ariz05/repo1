@@ -1,6 +1,12 @@
 package automationframework;
 
 import org.testng.annotations.Test;
+import org.testng.reporters.jq.Main;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.IExtentTestClass;
+import com.relevantcodes.extentreports.LogStatus;
+
 import java.util.concurrent.TimeUnit;
 
 
@@ -22,15 +28,17 @@ import appModules.MyAccount;
 import appModules.SignInAction;
 
 
+
+
 public class Demotest {
 	WebDriver driver;
 	
 	 @BeforeMethod
 	  public void beforeMethod() throws Exception {
-		    DOMConfigurator.configure("log4j.xml");
-			Log.startTestCase("First Test Case");
-			ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
-			Log.info("Excel Sheet Opened");
+		    //DOMConfigurator.configure("log4j.xml");
+			//Log.startTestCase("First Test Case");
+			//ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
+			//Log.info("Excel Sheet Opened");
 			//ChromeOptions options = new ChromeOptions();
 			//options.addArguments("chrome.switches","--disable-extensions");
 			//String exePath = "C:\\Users\\Ariz\\Documents\\chromedriver.exe";
@@ -38,6 +46,7 @@ public class Demotest {
 			System.setProperty("webdriver.gecko.driver", exePath);
 			//driver = new ChromeDriver(options);
 			System.out.print("Welcome to Selenium nworlddkjhdkjh");
+			
 			
 			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			capabilities.setCapability("marionette", true);
@@ -48,14 +57,13 @@ public class Demotest {
 			driver.get("https://www.homeshop18.com/");
 			
 	  }
-	
 	 @Test
-	 
-  public void EditPersonalDetails() throws Exception 
+	public void EditPersonalDetails() throws Exception 
   {
   	//WebDriver driver = TestNG_Framework.beforeMethod();
   	// Sign In with Existing USer's valid Credentials. 
-		 
+
+		
 	  System.out.print("Edit");
       SignInAction.Execute(driver);
       System.out.println("Login Successfully, now it is the time to Log Off buddy.");
