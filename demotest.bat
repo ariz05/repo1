@@ -1,0 +1,1 @@
+java -cp C:/eclipse-workspace/HomeShop/bin;C:/eclipse-workspace/HomeShop/lib/* org.testng.TestNG demo.xml

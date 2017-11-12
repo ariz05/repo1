@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="example suite 1" verbose="1" >
+<test name="Regression suite 1" >
+<classes>
+<class name="automationframework.Hello">
+<methods>
+    <include name = "SignIn_NewUser"/>
+	<include name = "SignIn_Existing_User"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
+
+
+
